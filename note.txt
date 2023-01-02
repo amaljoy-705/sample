@@ -1,0 +1,63 @@
+git and github
+--------------
+
+git
+--
+
+vcm - ersion control system
+scm - softare configuration management
+
+     GIT OPERATIONS
+     --------------
+
+github - remote repository
+
+push  -> local repository to remote repository - uploading new project and changes.
+
+clone -> remote repository to local repository - downloding exact copy of project.
+
+pull -> remote repository to local repository - downloding  changes.
+
+   
+1) GIT INITALISATION
+   ---------------
+   git init -> create new staging area and local repository.
+
+   ADD
+   ---
+   git  add .  -> to ad local storage.
+
+2) FOR STATUS CHECK
+   ---------------
+    git status  -> find file is upload or not.
+
+
+3) TO COMMIT
+   ---------
+ git commit -m "initial commit"  -> to commmit the git file
+
+ 4) LINK REMOTE repository
+    
+     git remote -v  ->  check remote repository added.
+     git remote add var2 (add remote link in github link) -> to add the files in remote repository ( var2 is used for the remote link).
+
+ 5) TO PUSH
+    -------
+
+    git push -u var2 master -> to push the local repository
+
+
+
+
+1) TO CLONE
+   --------
+
+   git clone (websie link) -> to clone the remote repository to local repository
+
+
+
+   TO HOST
+   -------
+
+   SETTINGS->PAGES->(CHANGE BRANCH INTO MASTER  (OUR BRANH NAME))-> SAVE
+
